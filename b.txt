@@ -1,0 +1,96 @@
+super()
+{
+	purno a,b,c,d,e,f,i,k;
+        /*integer g;
+          integer h:
+          My Roll number is 1707077
+        */
+        //float v,w;
+       
+	a eq 10;
+	b eq 30;
+	c eq 20;
+        i eq b;
+    k eq a add b;
+    show k;
+	show a;
+	show b;
+        d eq 2 add 4;
+        e eq a mult b;
+        f eq d % 2;
+        f eq f div 0;
+        show f;
+        show d;
+        show e;
+	either(5)
+	{
+		b add c;
+		c mult b;
+	}
+  
+        either(b gt= i)
+	{
+		i ek_barao;
+	}
+        show i;
+		
+	either(b gt c)
+	{
+		b sub c;
+	}
+	or
+	{
+		c sub b;
+		b mult c;
+	}
+	
+        
+         either(b gt c)
+         {
+		 
+         either(a gt b)
+         {
+           a sub b;
+         }
+		 
+         or
+         {
+            b sub a;
+         }
+         }
+		 
+         or
+         {
+            c sub b;
+         }
+
+	ghurao(ini:1 upto 5)
+	{
+		ini;
+	}
+        
+        ghurao(ini:1 upto 5)
+        {
+            ini;
+        ghurao(ini2:1 upto 5)
+        {
+              ini2;
+        }
+        }
+
+
+
+	ghurao(ini:0 upto 5)
+	{
+		ini add a;
+	}
+	math_gcd(5,10);
+        math_lcm(5,10);
+        math_max(5,100);
+        math_min(56,23);
+	fact(5);
+        expo(2,5);
+        math_sqrt(99);
+        prime_check(5);
+        prime_check(6);
+}
